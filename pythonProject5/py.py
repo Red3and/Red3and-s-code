@@ -1,0 +1,12 @@
+# -*- coding: gbk -*-
+import time
+import win32com.client
+
+# Æô¶¯ä¯ÀÀÆ÷
+browser = win32com.client.Dispatch("InternetExplorer.Application")
+browser.Visible = 1
+time.sleep(2)
+
+# ´ò¿ªßÙÁ¨ßÙÁ¨ÍøÕ¾
+browser.navigate("https://www.bilibili.com")
+time.sleep(5)
