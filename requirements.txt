@@ -8,3 +8,5 @@ pyttsx3
 pillow
 pywin32
 pyautogui
+pocketsphinx
+urllib3==1.23
