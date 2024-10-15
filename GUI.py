@@ -141,7 +141,7 @@ class GUI:
             print("test")
             print("phrase:", phrase)
             print(phrase.segments(detailed=True))
-            if str(phrase) in ["助手", "小助手", "住手", "出手", "祝寿", "入手", "株洲","如","如书","女","动手",""]:
+            if str(phrase) in ["助手", "小助手", "住手", "出手", "祝寿", "入手", "株洲","如","如书","女","动手"]:
                 print("correct")
                 self.listen()
                 text = voice.voice()
