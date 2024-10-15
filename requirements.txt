@@ -1,0 +1,10 @@
+setuptools
+pyaudio
+vosk
+SpeechRecognition
+pocketsphinx
+openai
+pyttsx3
+pillow
+pywin32
+pyautogui
